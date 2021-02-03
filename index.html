@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">   
+        <div class="form">
+            <h1>Criar Personagem</h1>
+            <form>
+                <label>
+                   Name: 
+                </label>
+                <input name="name" type="text">
+                <label>
+                    Tipo:
+                </label>
+                <select name="tipo">
+                    <option value="warrior">Warior</option>
+                    <option value="archer">Hero</option>
+                    <option value="wizard">wizard</option>
+                </select>
+                <button onclick="return personFactory">Criar</button>
+            </form>
+        </div>
+        
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
